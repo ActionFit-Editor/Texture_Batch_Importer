@@ -104,7 +104,7 @@ public class AtlasBatchImporterWindow : EditorWindow
 
     #region Window
 
-    [MenuItem("Tools/Atlas Batch Importer")]
+    [MenuItem("Tools/ActionFit/Atlas Batch Importer", false, 22)]
     public static void ShowWindow()
     {
         var window = GetWindow<AtlasBatchImporterWindow>("Atlas Batch Importer");
