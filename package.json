@@ -1,6 +1,6 @@
 {
   "name": "com.actionfit.texturebatchimporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Texture Batch Importer",
   "description": "텍스처/스프라이트 아틀라스의 임포트 설정을 폴더 단위로 일괄 적용하는 에디터 윈도우 모음(Texture Batch Importer, Atlas Batch Importer).",
   "unity": "6000.2",
