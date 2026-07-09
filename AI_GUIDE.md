@@ -7,7 +7,7 @@ This file is shipped inside the UPM package so an AI assistant in a consuming Un
 - Package ID: `com.actionfit.texturebatchimporter`
 - Display name: Texture Batch Importer
 - Repository: `https://github.com/ActionFit-Editor/Texture_Batch_Importer.git`
-- Current package version at generation time: `1.0.3`
+- Current package version at generation time: `1.0.4`
 - Unity version: `6000.2`
 
 ## Purpose
@@ -49,10 +49,18 @@ Read this file when:
 
 ## Menu And Behavior Notes
 
-- Texture menu: `Tools/ActionFit/Texture Batch Importer`.
-- Related batch menu families may include `Tools/ActionFit/Sound Batch Importer` and `Tools/ActionFit/Atlas Batch Importer` when present in the consuming project.
+- Texture menu: `Tools/Package/Texture Batch Importer/Texture Batch Importer`.
+- Related batch menu families may include `Tools/Package/Texture Batch Importer/Sound Batch Importer` and `Tools/Package/Texture Batch Importer/Atlas Batch Importer` when present in the consuming project.
 - Use this guide when changing texture importer presets, sprite import settings, atlas batch workflows, or batch import safety.
 - Importer changes can rewrite asset import settings; verify representative assets before applying broad operations.
+
+## Package Tools Menu
+
+- Unity menu root: `Tools/Package/Texture Batch Importer/`.
+- Keep package commands under this package root.
+- Lower separated entries:
+- `README`: opens this package README.
+- Do not add README or Setting SO access back to Custom Package Manager package rows or Project Files.
 
 ## Release Note Rules
 

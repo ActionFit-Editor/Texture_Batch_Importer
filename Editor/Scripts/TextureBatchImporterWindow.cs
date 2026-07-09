@@ -110,7 +110,7 @@ public class TextureBatchImporterWindow : EditorWindow
 
     #region Window
 
-    [MenuItem("Tools/ActionFit/Texture Batch Importer", false, 20)]
+    [MenuItem("Tools/Package/Texture Batch Importer/Texture Batch Importer", false, 20)]
     public static void ShowWindow()
     {
         var window = GetWindow<TextureBatchImporterWindow>("Texture Batch Importer");

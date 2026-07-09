@@ -7,17 +7,23 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.texturebatchimporter": "https://github.com/ActionFit-Editor/Texture_Batch_Importer.git#1.0.1"
+    "com.actionfit.texturebatchimporter": "https://github.com/ActionFit-Editor/Texture_Batch_Importer.git#1.0.4"
   }
 }
 ```
 
+## Unity Menu
+
+- Package root: `Tools > Package > Texture Batch Importer`.
+- README: `Tools > Package > Texture Batch Importer > README`.
+- Package commands stay under the same package root and appear above the separated README/Setting SO entries when those entries exist.
+
 ## 구성
 
 - **Editor** (`com.actionfit.texturebatchimporter.Editor`):
-  - `TextureBatchImporterWindow` — 메뉴 `Tools > Texture Batch Importer`
-  - `AtlasBatchImporterWindow` — 메뉴 `Tools > Atlas Batch Importer`
-  - `SoundBatchImporterWindow` — 메뉴 `Tools > Sound Batch Importer`
+  - `TextureBatchImporterWindow` — 메뉴 `Tools > Package > Texture Batch Importer > Texture Batch Importer`
+  - `AtlasBatchImporterWindow` — 메뉴 `Tools > Package > Texture Batch Importer > Atlas Batch Importer`
+  - `SoundBatchImporterWindow` — 메뉴 `Tools > Package > Texture Batch Importer > Sound Batch Importer`
 
 ## 사용
 

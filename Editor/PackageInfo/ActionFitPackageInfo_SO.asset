@@ -15,11 +15,16 @@ MonoBehaviour:
   _packageId: com.actionfit.texturebatchimporter
   _displayName: Texture Batch Importer
   _repoName: Texture_Batch_Importer
+  _repositoryVisibility: 0
   _owner: "\uC1A1\uC81C\uC6B0"
   _status: verified
   _description: "\uD14D\uC2A4\uCC98/\uC2A4\uD504\uB77C\uC774\uD2B8 \uC544\uD2C0\uB77C\uC2A4\uC758
     \uC784\uD3EC\uD2B8 \uC124\uC815\uC744 \uD3F4\uB354 \uB2E8\uC704\uB85C \uC77C\uAD04
     \uC801\uC6A9\uD558\uB294 \uC5D0\uB514\uD130 \uC708\uB3C4\uC6B0 \uBAA8\uC74C(Texture
     Batch Importer, Atlas Batch Importer)."
-  _releaseNote: "- 패키지 루트에 `AI_GUIDE.md`를 추가해, 다른 프로젝트에서도 소스 프로젝트의 `Docs/AI` 없이 이 패키지의 AI 작업 규칙을 읽을 수 있게 했습니다.\n- 가이드에 패키지 식별 정보, 필수 확인 문서, 수정 규칙, 릴리즈 노트 규칙, 수동 배포 주의사항을 기록했습니다.\n- `PACKAGE_AI_GUIDE_ROUTER.md`에서 이 패키지를 찾을 수 있도록 `Requested router entry` 기준의 라우터 등록 정보를 포함했습니다.\n- 이번 변경은 문서 배포용 패키지 콘텐츠 갱신이며, 런타임/에디터 동작은 변경되지 않습니다.\n- 주의: 기존 배포 태그가 있는 버전은 재사용하지 말고, 현재 후보 버전으로 배포해야 합니다."
+  _releaseNote: "- Unity \uC0C1\uB2E8 \uBA54\uB274\uB97C `Tools/Package/Texture Batch
+    Importer/...` \uAD6C\uC870\uB85C \uC815\uB9AC\uD588\uC2B5\uB2C8\uB2E4.\n- \uD558\uB2E8
+    \uAD6C\uBD84\uC120 \uC601\uC5ED\uC5D0 `README` \uBA54\uB274\uB97C \uCD94\uAC00\uD574
+    \uD328\uD0A4\uC9C0 README\uC5D0 \uBC14\uB85C \uC811\uADFC\uD560 \uC218 \uC788\uAC8C
+    \uD588\uC2B5\uB2C8\uB2E4."
   _dependenciesOverride: 

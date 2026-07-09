@@ -70,7 +70,7 @@ public class SoundBatchImporterWindow : EditorWindow
 
     private int CheckedSettingsCount => CountCheckedSettings();
 
-    [MenuItem("Tools/ActionFit/Sound Batch Importer", false, 21)]
+    [MenuItem("Tools/Package/Texture Batch Importer/Sound Batch Importer", false, 21)]
     public static void ShowWindow()
     {
         var window = GetWindow<SoundBatchImporterWindow>("Sound Batch Importer");
