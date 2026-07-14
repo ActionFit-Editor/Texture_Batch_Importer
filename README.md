@@ -7,10 +7,18 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.texturebatchimporter": "https://github.com/ActionFit-Editor/Texture_Batch_Importer.git#1.0.4"
+    "com.actionfit.texturebatchimporter": "https://github.com/ActionFit-Editor/Texture_Batch_Importer.git#1.0.5"
   }
 }
 ```
+
+## Agent Skills
+
+After installing or updating the package, run `Tools > Package > Custom Package Manager > Install or Refresh Agent Skills`.
+
+- `$texture-import-help`: explains texture, atlas, and sound batch workflows, menus, importer effects, and bulk-rewrite boundaries.
+
+This package intentionally registers help only. The skill does not rewrite importers, invoke refresh or reimport, change presets, or modify project assets.
 
 ## Unity Menu
 

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "skillPrefix": "texture-import",
+  "helpSkill": "texture-import-help",
+  "skills": [
+    {
+      "name": "texture-import-help",
+      "agents": ["codex", "claude"],
+      "includeShared": false,
+      "access": "read-only"
+    }
+  ]
+}

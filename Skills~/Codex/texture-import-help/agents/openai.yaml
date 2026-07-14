@@ -1,0 +1,4 @@
+interface:
+  display_name: "Texture Import Help"
+  short_description: "Explain batch importer workflows without rewriting assets"
+  default_prompt: "Use $texture-import-help to explain Texture Batch Importer workflows without rewriting asset import settings."

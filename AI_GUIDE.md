@@ -7,12 +7,19 @@ This file is shipped inside the UPM package so an AI assistant in a consuming Un
 - Package ID: `com.actionfit.texturebatchimporter`
 - Display name: Texture Batch Importer
 - Repository: `https://github.com/ActionFit-Editor/Texture_Batch_Importer.git`
-- Current package version at generation time: `1.0.4`
+- Current package version at generation time: `1.0.5`
 - Unity version: `6000.2`
 
 ## Purpose
 
 Texture Batch Importer manages batch texture and atlas import settings. Use `README.md`, `package.json`, package source files, and `Editor/PackageInfo/ActionFitPackageInfo_SO.asset` together to understand the user-facing workflow and catalog metadata.
+
+## Agent Skills
+
+- `Skills~/manifest.json` registers schema v2 `texture-import-help` for Codex and Claude with the unique `texture-import` prefix.
+- The help skill is read-only and reads the generated `PACKAGE_SKILLS.md` inventory before explaining package workflows.
+- No skill rewrites texture, atlas, or sound import settings; invokes refresh or reimport; changes presets; or modifies project assets.
+- Custom Package Manager owns project-local installation and safe refresh of this package's skill.
 
 ## Project Router Registration
 
