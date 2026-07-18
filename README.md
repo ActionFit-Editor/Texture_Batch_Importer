@@ -7,24 +7,24 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.texturebatchimporter": "https://github.com/ActionFit-Editor/Texture_Batch_Importer.git#1.0.5"
+    "com.actionfit.texturebatchimporter": "https://github.com/ActionFit-Editor/Texture_Batch_Importer.git#1.0.6"
   }
 }
 ```
 
-## Agent Skills
+## Agent Skill 안내
 
-After installing or updating the package, run `Tools > Package > Custom Package Manager > Install or Refresh Agent Skills`.
+패키지를 설치하거나 업데이트한 뒤 `Tools > Package > Custom Package Manager > Install or Refresh Agent Skills`를 실행합니다.
 
-- `$texture-import-help`: explains texture, atlas, and sound batch workflows, menus, importer effects, and bulk-rewrite boundaries.
+- `$texture-import-help`: texture, atlas 및 sound batch workflow, 메뉴, importer 영향과 bulk rewrite 경계를 설명합니다.
 
-This package intentionally registers help only. The skill does not rewrite importers, invoke refresh or reimport, change presets, or modify project assets.
+이 패키지는 의도적으로 help만 등록합니다. Skill은 importer rewrite, refresh/reimport 호출, preset 변경 또는 프로젝트 asset 수정을 실행하지 않습니다.
 
-## Unity Menu
+## Unity 메뉴
 
 - Package root: `Tools > Package > Texture Batch Importer`.
 - README: `Tools > Package > Texture Batch Importer > README`.
-- Package commands stay under the same package root and appear above the separated README/Setting SO entries when those entries exist.
+- 패키지 명령은 같은 package root 아래에 유지하며 README/Setting SO 항목이 있으면 분리된 해당 항목보다 위에 표시합니다.
 
 ## 구성
 
